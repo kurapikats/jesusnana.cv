@@ -1,0 +1,9 @@
+{
+  "extends": "@meteorjs/eslint-config-meteor",
+  "rules": {
+      "no-underscore-dangle": "off",
+      "semi": ["error", "never"],
+      "import/prefer-default-export": "off",
+      "react/prefer-stateless-function": "off"
+  }
+}

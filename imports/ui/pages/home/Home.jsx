@@ -381,7 +381,7 @@ class Home extends Component {
 
           <p className="center">* * *<br /></p>
 
-          <div className="fixed-action-btn hide-on-small-only">
+          <div className="fixed-action-btn hide-on-med-and-down">
             <a href="#top" className="btn-floating btn-large deep-purple accent-4 waves-effect">
               <i className="large material-icons">arrow_drop_up</i>
             </a>

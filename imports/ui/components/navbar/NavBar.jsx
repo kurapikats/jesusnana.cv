@@ -12,12 +12,12 @@ class NavBar extends Component {
           <div className="nav-wrapper deep-purple">
             <a href="#top" className="brand-logo left waves-effect" style={{ marginLeft: 10 }}>
               Jesus B. Nana
-              <span className="hide-on-small-only">&nbsp;&raquo; Business App Developer</span>
+              <span className="hide-on-med-and-down">&nbsp;&raquo; Business App Developer</span>
             </a>
             <ul className="right">
               <li>
                 <a href="#contact" className="waves-effect">
-                  <i className="material-icons left hide-on-small-only">phone</i>
+                  <i className="material-icons left hide-on-med-and-down">phone</i>
                   Contact
                 </a>
               </li>

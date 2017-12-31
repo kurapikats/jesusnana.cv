@@ -252,7 +252,7 @@ class Home extends Component {
           </table>
 
           <h4 id="certifications" className="section scrollspy">Certifications</h4>
-          <table className="bordered centered highlight">
+          <table className="bordered centered highlight responsive-table">
             <tbody>
               <tr>
                 <td><img src="/img/certificates/csharp.gif" alt="C#" /></td>
@@ -377,10 +377,12 @@ class Home extends Component {
             +63 908 215 0659
           </div>
 
-          <p className="center">* * *</p>
+          <p className="right" style={{ fontSize: 14 }}>Last updated: Dec 31, 2017</p>
 
-          <div className="fixed-action-btn">
-            <a href="#top" className="btn-floating btn-large deep-purple lighten-2 waves-effect">
+          <p className="center">* * *<br /></p>
+
+          <div className="fixed-action-btn hide-on-small-only">
+            <a href="#top" className="btn-floating btn-large deep-purple accent-4 waves-effect">
               <i className="large material-icons">arrow_drop_up</i>
             </a>
           </div>
@@ -390,7 +392,6 @@ class Home extends Component {
     )
   }
 }
-
 
 export default Home
 

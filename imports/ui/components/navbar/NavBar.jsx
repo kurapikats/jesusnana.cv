@@ -10,11 +10,14 @@ class NavBar extends Component {
       <div id="top" className="scrollspy navbar-fixed">
         <nav>
           <div className="nav-wrapper deep-purple">
-            <a href="#top" className="brand-logo left waves-effect" style={{ marginLeft: 10 }}>Jesus B. Nana - Software Developer</a>
+            <a href="#top" className="brand-logo left waves-effect" style={{ marginLeft: 10 }}>
+              Jesus B. Nana
+              <span className="hide-on-small-only">&nbsp;&raquo; Business App Developer</span>
+            </a>
             <ul className="right">
               <li>
                 <a href="#contact" className="waves-effect">
-                  <i className="material-icons left">phone</i>
+                  <i className="material-icons left hide-on-small-only">phone</i>
                   Contact
                 </a>
               </li>

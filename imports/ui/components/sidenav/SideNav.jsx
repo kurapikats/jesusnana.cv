@@ -1,11 +1,13 @@
 import React from 'react'
 
+import './SideNav.css'
+
 const SideNav = props => (
   <ul id="slide-out" className="side-nav">
     <li>
       <div className="user-view">
-        <div className="background">
-          <img src="/img/sidenav-bg.jpg" alt="Leather" />
+        <div className="background bg">
+          &nbsp;
         </div>
         <a href="#!user">
           <img className="circle" src="/img/onin-profile-pic.jpg" alt="Onin" />

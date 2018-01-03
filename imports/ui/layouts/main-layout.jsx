@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import AccountsUIWrapper from '../components/common/AccountsUIWrapper.jsx'
 import NavBar from '../components/navbar/NavBar.jsx'
 import SideNav from '../components/sidenav/SideNav.jsx'
 

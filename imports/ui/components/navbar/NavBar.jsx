@@ -9,10 +9,10 @@ class NavBar extends Component {
     return (
       <div id="top" className="scrollspy navbar-fixed">
         <nav>
-          <div className="nav-wrapper deep-purple">
+          <div className="nav-wrapper brown">
             <a href="#top" className="brand-logo left waves-effect" style={{ marginLeft: 10 }}>
               Jesus B. Nana
-              <span className="hide-on-med-and-down">&nbsp;&raquo; Business App Developer</span>
+              <span className="hide-on-med-and-down">&nbsp;&raquo; Business App Programmer</span>
             </a>
             <ul className="right">
               <li>

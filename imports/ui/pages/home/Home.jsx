@@ -4,21 +4,12 @@ import './Home.css'
 class Home extends Component {
   componentDidMount() {
     $('.scrollspy').scrollSpy()
-    // $('ul.tabs').tabs()
   }
 
   render() {
     return (
       <div className="row flow-text">
         <div className="col s12">
-
-          {/* <ul className="tabs">
-            <li className="tab"><a className="waves-effect deep-purple-text" href="#technical-skills">Technical Skills</a></li>
-            <li className="tab"><a className="waves-effect deep-purple-text" href="#work-experiences">Work Experiences</a></li>
-            <li className="tab"><a className="waves-effect deep-purple-text" href="#projects">Projects</a></li>
-            <li className="tab"><a className="waves-effect deep-purple-text" href="#character-references">Character References</a></li>
-          </ul> */}
-
           <h4 id="professional-attributes" className="section scrollspy">Professional Attributes</h4>
           <ul className="browser-default">
             <li>Devoted learner; have insatiable appetite to gain and apply new knowledge.</li>
@@ -30,6 +21,12 @@ class Home extends Component {
 
           <h4 id="technical-skills" className="section scrollspy">Technical Skills</h4>
           <ul className="browser-default">
+            <li><strong>Job Titles</strong>
+              <ul className="browser-default">
+                <li>Business App Programmer, Web Developer, Android App Developer, iOS App Developer, Mobile App Developer, Backend Developer, Frontend Developer, Web Master, Software Programmer, Computer Programmer</li>
+              </ul>
+            </li>
+
             <li><strong>Programming &amp; Scripting</strong>
               <ul className="browser-default">
                 <li>Javascript (ES2015+), PHP, Java, Python, SQL</li>
@@ -44,13 +41,13 @@ class Home extends Component {
 
             <li><strong>Tools &amp; Technologies</strong>
               <ul className="browser-default">
-                <li>NativeScript, MeteorJs, MantraJs, ReactJs, Laravel, Twitter Bootstrap, JQuery, Smarty, Drupal</li>
-                <li>Nginx, Apache, Lighttpd, SSH, XAMPP, Atom, Vim, VSCode, HTML5, Material Design</li>
+                <li>Redux, NativeScript, MeteorJs, MantraJs, ReactJs, Laravel, Twitter Bootstrap, JQuery, Drupal</li>
+                <li>Nginx, Apache, Lighttpd, SSH, XAMPP, Atom, Vim, VSCode, HTML5, Smarty, Material Design</li>
                 <li>Git, Subversion, tmux, Firefox and Firebug, LESS, Google Search and APIs</li>
                 <li>npm, yarn, PEAR, PECL, Doctrine, Composer, Bower, Memcached</li>
                 <li>XML, SOAP, REST, WAP, GSM-SMS, AJAX, Web2.0, Modernizr</li>
                 <li>Appnexus API, Selenium, PHPUnit, Browserify, Webpack</li>
-                <li>Adobe Photoshop, Dreamweaver, MS Office, Cygwin, VirtualBox</li>
+                <li>Adobe Photoshop, Dreamweaver, MS Office, Cygwin, VirtualBox, Docker</li>
                 <li>Manage Amazon Servers and APIs, EC2, S3, Cloudfront CDN, Heroku, DigitalOcean</li>
               </ul>
             </li>
@@ -79,9 +76,12 @@ class Home extends Component {
           <ul className="browser-default">
             <li><strong>PrimaCard Philippines (2017)</strong>
               <ul className="browser-default">
-                <li>Planned and designed the whole system for PrimaCard platform</li>
+                <li>Planned and designed the whole system for PrimaCard Platform</li>
                 <li>Developed backend payment API system in Amazon Web Services</li>
+                <li>Developed Two-factor One-Time Password (OTP) Token authentication method</li>
                 <li>Integrated with third party SMS provider for customer notification system</li>
+                <li>Integrated Quick Response (QR) Code scanning system</li>
+                <li>Integrated Near-Field Communication (NFC) Card ID detection system</li>
                 <li>Integrated Keycloak Access Management System on API endpoints</li>
                 <li>Developed Android App for clients and supervisor</li>
                 <li>Developed WebTools for Clients and System Administrators</li>
@@ -91,11 +91,11 @@ class Home extends Component {
 
             <li><strong>Metrobank Philippines (2016)</strong>
               <ul className="browser-default">
-                <li>Developed Internal Content Management System</li>
+                <li>Developed “Insights” Content Management System</li>
               </ul>
             </li>
 
-            <li><strong>AdGent Digital (2010 – 2015)</strong>
+            <li><strong>AdGent Digital (2010 - 2015)</strong>
               <ul className="browser-default">
                 <li>Developed Internal Content Management System</li>
                 <li>Developed and maintain company website adgentdigital.com</li>
@@ -319,7 +319,7 @@ class Home extends Component {
               <a href="http://www.upm.edu.ph" target="_blank">UP Manila Official Website</a>
             </li>
             <li className="collection-item">
-              <a href="http://crs2.upm.edu.ph" target="_blank">Online Student Registration</a>
+              <a href="http://crs2.upm.edu.ph" target="_blank">UPM Online Student Registration</a>
             </li>
           </ul>
 
@@ -367,22 +367,22 @@ class Home extends Component {
 
           <h4 id="contact" className="section scrollspy">Contact</h4>
           <div>
-            <i className="tiny material-icons">email</i>&nbsp;
-            <a href="mailto:jesus.nana@gmail.com" target="_blank">
+            <i className="tiny material-icons brown-text lighten-2">email</i>&nbsp;
+            <a href="mailto:jesus.nana@gmail.com" target="_blank" className="brow-text">
               jesus.nana@gmail.com
             </a>
           </div>
           <div>
-            <i className="tiny material-icons">phone</i>&nbsp;
-            +63 908 215 0659
+            <i className="tiny material-icons brown-text lighten-2">phone</i>&nbsp;
+            <span className="brown-text">+63 908 215 0659</span>
           </div>
 
-          <p className="right" style={{ fontSize: 14 }}>Last updated: Dec 31, 2017</p>
+          <p className="right" style={{ fontSize: 14 }}>Last update: Jan 4, 2018</p>
 
           <p className="center">* * *<br /></p>
 
           <div className="fixed-action-btn hide-on-med-and-down">
-            <a href="#top" className="btn-floating btn-large deep-purple accent-4 waves-effect">
+            <a href="#top" className="btn-floating btn-large brown accent-4 waves-effect">
               <i className="large material-icons">arrow_drop_up</i>
             </a>
           </div>
